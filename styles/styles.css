@@ -1,3 +1,33 @@
 .headerFooter {
     background-color: lightcyan;
 }
+
+#aside {
+    background-color: darkcyan;
+    width: 400px;
+}
+
+#article {
+    background-color: lightcoral;
+    flex-grow: 1;
+    align-content: flex-end;
+    text-align: center;
+}
+
+.imgArticle {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
+
+#container {
+    display: flex;
+    height: 80vh;
+    gap: 20px;
+}
+
+#containerImg {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
